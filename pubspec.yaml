@@ -1,0 +1,16 @@
+name: version_manager
+description: A Dart package to automate version management for Flutter apps via the command line.
+version: 0.0.1+1
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  yaml: ^3.1.0
+  args: ^2.3.0
+
+dev_dependencies:
+  test: ^1.20.0
+
+executables:
+  version_manager: version_manager.dart
