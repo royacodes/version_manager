@@ -20,7 +20,7 @@ dart pub global activate version_manager
 Once installed globally, you can increment the version by running:
 
 ```bash
-version_manager --increment <part>
+dart run version_manager --increment <part>
 ```
 
 Where `<part>` can be:
@@ -34,14 +34,14 @@ Where `<part>` can be:
 1. Increment the patch version in the current directory's `pubspec.yaml`:
    
 ```bash
-version_manager --increment patch
+dart run version_manager --increment patch
 ```
 
 ## Help
 To see all available options:
 
 ```bash
-version_manager --help
+dart run version_manager --help
 ```
 
 ## Contributing
