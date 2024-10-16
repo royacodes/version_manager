@@ -1,3 +1,4 @@
 ## 0.0.1
 
-* TODO: Describe initial release.
+- Initial release of `version_manager`.
+- Added the ability to increment **major**, **minor**, **patch**, and **build** versions in `pubspec.yaml`.
