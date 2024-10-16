@@ -14,4 +14,39 @@ To install the `version_manager` package globally, run:
 
 ```bash
 dart pub global activate version_manager
+```
+
+## Usage
+Once installed globally, you can increment the version by running:
+
+```bash
+version_manager --increment <part>
+```
+
+Where `<part>` can be:
+
+- major - Increments the major version (e.g., 1.0.0 -> 2.0.0)
+- minor - Increments the minor version (e.g., 1.2.0 -> 1.3.0)
+- patch - Increments the patch version (e.g., 1.2.3 -> 1.2.4)
+- build - Increments the build number (e.g., 1.2.3+4 -> 1.2.3+5)
+
+## Examples
+1. Increment the patch version in the current directory's `pubspec.yaml`:
+   
+```bash
+version_manager --increment patch
+```
+
+## Help
+To see all available options:
+
+```bash
+version_manager --help
+```
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please feel free to create a pull request or open an issue.
+
+## License
+This project is licensed under the MIT License.
 
